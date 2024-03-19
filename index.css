@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+}
+#p {
+  background-color: blueviolet;
+  width: fit-content;
+  height: 25px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 18px;
+  margin-left: 45%;
+  padding: 5px;
+  color: white;
+}
+#para {
+  text-align: center;
+  font-weight: 400;
+}
+#h3 {
+  margin: 48px auto;
+  background-color: blueviolet;
+  width: fit-content;
+  color: white;
+  border: 1px solid rgb(49, 49, 50);
+  border-radius: 20px;
+  padding: 5px;
+  font-size: medium;
+  margin-left: 41%;
+}
+.avator {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 10px;
+  text-align: center;
+}
+
+#Development {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 42%;
+  background-color: blueviolet;
+  width: fit-content;
+  height: 20px;
+  color: white;
+  border: 1px solid rgb(49, 49, 50);
+  border-radius: 18px;
+  padding: 3px;
+
+  font-size: 18px;
+}
+
+#div {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 30%;
+  display: flex;
+  gap: 20px 60px;
+}
+#div2 {
+  position: absolute;
+  margin-top: 36%;
+  margin-left: 35%;
+  display: flex;
+  gap: 20px 60px;
+}
+
+#sales {
+  margin-top: 30%;
+}
+
+#dot {
+  color: blueviolet;
+}
+
+#sale {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 41%;
+  background-color: blueviolet;
+  width: fit-content;
+  height: 20px;
+  color: white;
+  border: 1px solid rgb(49, 49, 50);
+  border-radius: 18px;
+  padding: 3px;
+
+  font-size: 18px;
+}
+
+/* .containerBorder {
+  border: 2px solid #0f0d0d;
+  height: 100%;
+} */
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+    .avator {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .name {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+.hero{
+    margin-right: 8%;
+}
